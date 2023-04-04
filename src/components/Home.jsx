@@ -1,6 +1,6 @@
 import React from 'react'
 import Lottie from 'lottie-react'
-import reader from '../assets/reader.json'
+import reader from '../assets/book-lover.json'
 import { ShoppingCartIcon } from '@heroicons/react/24/solid'
 import { Link } from 'react-router-dom'
 
@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='my-container flex flex-col items-center justify-between lg:flex-row'>
       {/* Text Content */}
-      <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0'>
+      <div className='mb-10 lg:max-w-lg  lg:pr-5 lg:mb-0 text-left'>
         <div className='max-w-xl mb-6 lg:mt-8'>
           <div>
             <p className='badge'>On Sale!</p>
