@@ -11,6 +11,7 @@ function App() {
       <Header></Header>
       <Outlet></Outlet>
       {/* footer  */}
+      <h1 className='text-center mt-12'>This is footer</h1>
     </div>
   )
 }
