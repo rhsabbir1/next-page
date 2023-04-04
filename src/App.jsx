@@ -6,8 +6,9 @@ function App() {
 
   return (
     <div className="App">
-      <h1>this is router</h1>
+      {/* header  */}
       <Outlet></Outlet>
+      {/* footer  */}
     </div>
   )
 }
