@@ -1,8 +1,13 @@
 import React from 'react';
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigation } from 'react-router-dom';
 import Book from './Book';
+import Loader from './Loader';
 
 const Books = () => {
+    const navigration = useNavigation()
+    if(navigration.state === 'loading'){
+        return <Loader></Loader>
+    }
     const { books } = useLoaderData()
  
     
